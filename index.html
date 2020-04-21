@@ -22,9 +22,10 @@
 
     <title>Ultrax Flux</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#fluxNav">
+    <header>
     <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="fixed-top navbar navbar-expand-lg" id="fluxNav">
         <a class="navbar-brand" href="#">
           <i class="fas fa-toilet-paper"></i> Ultrax Flux</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -35,29 +36,28 @@
           <div class="mr-auto"></div>
           <ul class="navbar-nav mr-5">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+              <a class="nav-link" href="#jum">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Course</a>
+              <a class="nav-link" href="#myCar">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Price</a>
+              <a class="nav-link" href="#frett">Benefits</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#">Fact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#testimonial">Testimonial</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
+  </header>
 
-    <section class="jumbo">
+  <main>
+    <section class="jumbo" id="jum">
 
       <div class="jumbotron jumbotron-fluid">
         <div class="container p-4">
@@ -68,7 +68,7 @@
                  Ultrax Flux
               </h1>
               <p>Goes right through you</p>
-              <a href="#" id="jalert" class="btn btn-primary">Pssst</a>
+              <a href="#" id="jalert" class="btn-lg  btn-primary">Pssst</a>
               <div class="alert alert-warning alert-dismissible fade show mt-5" role="alert">
                 <strong>Newsflash</strong> You've com to the right place to fulfill all of your gastrointestinal needs!
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -78,7 +78,7 @@
             </div>
             <div class="col-md-7">
               <div class="row">
-                <div class="col-md-6">
+                <div class="d-none d-md-block col-md-6">
                   <div class="move">
                     <img id="checker" alt="" />
                   </div>
@@ -136,9 +136,9 @@
       </div>
     </section>
 
-    <section class="frett">
+    <section class="frett" id="frett">
       <div class="container">
-        <div class="row featurette mb-5 pt-5">
+        <div class="row featurette text-center text-md-left mb-5 pt-5">
           <div class="col-md-7">
             <h2 class="featurette-heading">
               Utilizing Blockchain technology
@@ -150,18 +150,18 @@
             <img src="./img/yoga.jpg" id="yoga" alt="">
           </div>
         </div>
-        <div class="row featurette mb-5">
-          <div class="col-md-5 text-center">
+        <div class="row featurette text-center text-md-left mb-5">
+          <div class="col-md-5 text-center order-2 order-md-1">
             <img src="./img/weight.jpg" id="weight" alt="">
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7 order-1 order-md-2">
             <h2 class="featurette-heading">
               Literally lose weight
             </h2>
             <p class="lead">Using our patented ultrax microbiome nutrient complex</p>
           </div>
         </div>
-        <div class="row featurette pb-5 mb-5">
+        <div class="row featurette pb-5 mb-5 text-center text-md-left">
           <div class="col-md-7">
             <h2 class="featurette-heading">
               Definition of Flux
@@ -173,14 +173,14 @@
               2. diarrhea or dysentery.
             </blockquote>
           </div>
-          <div class="col-md-5 text-right">
+          <div class="col-md-5 text-center text-md-right">
             <img src="./img/flow.jpg" alt="" id="flow">
           </div>
         </div>
       </div>
     </section>
 
-    <section class="testimonials bg-warning pt-4">
+    <section class="testimonials bg-warning pt-4" id="testimonial">
       <h2 class="text-center mb-4">Testimonials</h2>
       <div class="container">
         <div class="row">
@@ -360,7 +360,7 @@
         </div>
       </div>
     </section>
-
+  </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

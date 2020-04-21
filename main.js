@@ -1,4 +1,6 @@
 $(document).ready(function () {
+  $('body').scrollspy({ target: '#fluxNav' });
+
   $('#myCar').carousel({
     interval: 3000,
     pause: false,
