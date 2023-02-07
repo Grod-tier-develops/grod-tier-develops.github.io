@@ -1,0 +1,132 @@
+BODY, TD  {
+	font-family : Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+A
+{
+	color: #990000;
+}
+
+A:visited
+{
+	color: #990000;
+}
+
+A:hover
+{
+	color: #666666;
+}
+
+A.subhead
+{
+	text-decoration : none;
+}
+
+A.subhead:visited
+{
+	text-decoration : none;
+}
+
+A.subhead:hover
+{
+	text-decoration : none;
+}
+
+.red {
+	color: #D27303;
+}
+
+.white {
+	color: White;
+}
+
+.border {
+	border: 1px solid White;
+}
+
+.color_row {
+	background-color : #F0F5FA;
+}
+
+.dropcap {
+	float:left;
+	color:#999900;
+	font-size:48px;
+	line-height:36px;
+	padding-top:2px;
+} 
+
+.header {
+	color: White;
+	font-size: 24px;
+	font-weight : bold;
+}
+
+.subhead {
+	color: #990000;
+	font-size: 14px;
+	font-weight : bold;
+}
+
+.header_red {
+	color: #990000;
+	font-size: 24px;
+	font-weight : bold;
+}
+
+.subhead_red {
+	color: Red;
+	font-size: 14px;
+	font-weight : bold;
+}
+
+TABLE.border {
+	border-collapse: collapse;
+    border: 1px solid White;
+	text-align: left;
+}
+
+TD.border {
+	border-collapse: collapse;
+    border: 1px solid White;
+}
+
+TD.border_dot {
+	border-top : 3px dotted White;
+}
+
+.quote {
+	color: Black;
+	font-size: 18px;
+	font-family : "Times New Roman", Times, serif;
+	font-style : italic;
+}
+
+.fineprint {
+	font-size: 9px;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.background {
+	background-image : url(images/background_4.jpg);
+	background-color : #FECB02;
+	background-position : top;
+	background-repeat : repeat-y;
+	background-attachment : scroll;
+} 
+
+.animation {
+	background-image : url(images/home_anim.gif);
+	background-color : White;
+	background-position : right;
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+} 
+
+.header {
+	background-image : url(images/second_header_2_01.gif);
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-position : left;
+} 
