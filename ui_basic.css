@@ -130,3 +130,35 @@ TD.border_dot {
 	background-attachment : fixed;
 	background-position : left;
 } 
+
+.buy {
+	border-radius: 10px;
+	font-size: 3em;
+	line-height: 100px;
+	margin-top: 20px;
+	display: block;
+	background-color: red;
+	width: 300px;
+	font-weight: bold;
+	padding: 0;
+
+}
+
+.buy:hover {
+	background-color: #EE4B2B;
+}
+
+.buy a {
+	color:white !important;
+	height: 200%;
+}
+
+.buy a:hover {
+	color:yellow !important;
+}
+
+.tickets {
+	
+	font-size: 2em;
+	line-height: 40px;
+}
